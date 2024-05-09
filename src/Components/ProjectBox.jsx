@@ -4,31 +4,30 @@ import { CgFileDocument } from "react-icons/cg";
 
 const ProjectBox = ({ projectPhoto, projectName }) => {
   const desc = {
-    LevelsDesc:
-      "This website is a for a local gym to help with their sales.This helped me understand React better and more clearly. I also learned how to host on vercel.",
-    LevelsGithub: "https://github.com/EshaalB/Gym-Website",
-    LevelsWebsite: "https://gym-website-pink.vercel.app/",
+    
+    DashboardUIGithub: "https://github.com/Ragu-The-Developer/dashboard",
+    DashboardUIWebsite: "https://dashboard-topaz-iota.vercel.app/",
+    
+    ResponsiveLandingPageGithub: "https://github.com/Ragu-The-Developer/Ragu-The-Developer/tree/main/HTML%20CSS%20WEBSITE",
+    ResponsiveLandingPageWebsite: "https://htmlcsscodings.netlify.app",
 
-    MovieDesc:
-      "This web app  is for helping you find your desired movie.The project helped me with understanding the working of API.I also learned new CSS properties and tricks.",
-    MovieGithub: "https://github.com/EshaalB/Movie-App",
-    MovieWebsite: "https://film-mania.vercel.app/",
+    FramerJSGithub: "https://github.com/Ragu-The-Developer/Framer-React",
+    FramerJSWebsite: "https://framer-react-zeta.vercel.app/",
 
-    ColourPaletteDesc:
-      "This website helps you generate random colours that you can use as a palette.The project helped me understand Javascript more deeply using advance techniques",
-    ColourPaletteGithub: "https://github.com/EshaalB/Colour-palette-Generator",
-    ColourPaletteWebsite: "https://colourpalettegen.netlify.app",
+    TrailerAppGithub: "https://github.com/Ragu-The-Developer/trailer-fetch",
+    TrailerAppWebsite: "https://trailer-fetch.vercel.app/",
 
-    BackpackDesc:
-      "This webpageis was made for an ecommerce brand showcasing their backpacks.The project taught me how to use custom cursors and arrange text in a much better way",
-    BackpackGithub: "https://github.com/EshaalB/Landing-Page--React-",
-    BackpackWebsite: "https://landing-page-react-sage.vercel.app/",
+    ResponsiveBlogAppGithub: "https://github.com/Ragu-The-Developer/Blogger-X",
+    ResponsiveBlogAppWebsite: "https://blogger-x-two.vercel.app/",
+
+    SinglePageGithub: "https://github.com/Ragu-The-Developer/ORGware",
+    SinglePageWebsite: "https://landingpage-lovat-two.vercel.app/",
   };
 
   return (
     <div className="projectBox">
       <img className="projectPhoto" src={projectPhoto} alt="Project display" />
-      <div>
+      <div className="box">
         <br />
         <h3>{projectName}</h3>
         <br />

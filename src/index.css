@@ -8,14 +8,14 @@
   position: relative;
   overflow-x: hidden;
   -webkit-tap-highlight-color: transparent;
-  --color: #04195f;
+  --color: black;
 }
 body {
   font-family: "Raleway", sans-serif;
   background: radial-gradient(
     1700px circle at 4.48% 0%,
     #537aab 0%,
-    #124285 100%
+    purple
   );
   color: #e7e7e7;
   min-height: 100vh;
@@ -61,7 +61,8 @@ button:hover {
   scroll-behavior: smooth;
 }
 ::-webkit-scrollbar-track {
-  background: #274656;
+  background: black;
+  color: white;
   border-radius: 100px;
 }
 ::-webkit-scrollbar-thumb {
@@ -84,7 +85,7 @@ button:hover {
 }
 
 .blur {
-  background-color: #01111a8d;
+  background-color: black;
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(20px);
 }
@@ -93,7 +94,7 @@ button:hover {
   font-size: 32px;
   letter-spacing: 2px;
   padding-left: 7%;
-  color: var(--color);
+  color: whitesmoke;
   display: flex;
   align-items: center;
   text-align: center;
@@ -160,7 +161,7 @@ button:hover {
     position: fixed;
     inset: 0 0 0 50%;
     gap: 50px;
-    background-color: #0c2f69;
+    background-color: black;
     height: 100vh;
     padding-top: max(20%, 120px);
     transform: translateX(100%);
@@ -223,10 +224,13 @@ button:hover {
 }
 
 .TypeEffect {
-  padding: 25px 0px;
+  padding: 25px 20px;
   font-weight: 600;
   font-size: 32px;
   letter-spacing: 0.6px;
+  background-color: #4d4855;
+background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
+  margin-top: 5%;
 }
 .Avatar {
   height: 350px;
@@ -262,6 +266,8 @@ button:hover {
     font-weight: 500;
     font-size: 24px;
   }
+
+  
 }
 
 /* ABOUT */
@@ -367,6 +373,22 @@ button:hover {
     height: 100px;
     font-size: 50px;
   }
+
+  .resume-btn 
+  {
+    width: 70%;
+    padding: 15px;
+  }
+
+  .about 
+{
+  width: 70%;
+}
+
+.contact 
+{
+  width: 70%;
+}
 }
 /* Project */
 .projectHeading {
@@ -386,6 +408,7 @@ button:hover {
 
 .projectBox {
   width: 350px;
+  box-shadow: #0c2f69;
   border: 3px solid var(--color);
   border-radius: 5px;
   text-align: center;
@@ -396,15 +419,18 @@ button:hover {
   margin: 0px 25px 50px 25px;
   transition: 0.5s;
 }
+
 .projectBox:hover {
   transform: scale(1.05);
   background-color: rgb(27, 39, 125);
 }
 
+
 .projectPhoto {
   display: block;
   width: 100%;
   margin: 0px 0px;
+  
 }
 
 /* FOOTER */
@@ -502,3 +528,7 @@ a {
   font-weight: bold;
   margin-top: 20px;
 }
+
+
+
+

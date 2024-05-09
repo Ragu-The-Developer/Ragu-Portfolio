@@ -1,10 +1,11 @@
 import React from "react";
 import ProjectBox from "./ProjectBox";
-import FilmImage from "../images/Film.png";
-import GymImage from "../images/gym.png";
-import ColourImage from "../images/colour.png";
-import BackpackImage from "../images/backpack.png";
-
+import DashboardImage from "../images/dashboard.png";
+import FramerImage from "../images/framer.png";
+import LandingPageImage from "../images/landingpage.png";
+import TrailerImage from "../images/trailer.png";
+import BlogImage from '../images/blog.png';
+import SingleImage from '../images/singlepage.png'; 
 const Projects = () => {
   return (
     <div>
@@ -12,10 +13,12 @@ const Projects = () => {
         My <b>Projects</b>
       </h1>
       <div className="project">
-        <ProjectBox projectPhoto={GymImage} projectName="Levels" />
-        <ProjectBox projectPhoto={FilmImage} projectName="Movie" />
-        <ProjectBox projectPhoto={ColourImage} projectName="ColourPalette" />
-        <ProjectBox projectPhoto={BackpackImage} projectName="Backpack" />
+        <ProjectBox projectPhoto={DashboardImage} projectName="DashboardUI" />
+        <ProjectBox projectPhoto={FramerImage} projectName="FramerJS" />
+        <ProjectBox projectPhoto={LandingPageImage} projectName="ResponsiveLandingPage" />
+        <ProjectBox projectPhoto={TrailerImage} projectName="TrailerApp" />
+        <ProjectBox projectPhoto={BlogImage} projectName="ResponsiveBlogApp" />
+        <ProjectBox projectPhoto={SingleImage} projectName="SinglePage" />
       </div>
     </div>
   );
