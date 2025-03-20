@@ -9,9 +9,13 @@ import {
   FaHtml5,
   FaCss3,
   FaFigma,
+  FaDatabase,
+  FaCode
 } from "react-icons/fa";
 import { DiJavascript1 } from "react-icons/di";
 import { SiTailwindcss } from "react-icons/si";
+import { FaAngular } from "react-icons/fa";
+import { TbBrandCSharp } from "react-icons/tb";
 
 const Skills = ({ skill }) => {
   const icon = {
@@ -22,9 +26,11 @@ const Skills = ({ skill }) => {
     Tailwind: <SiTailwindcss />,
     React: <FaReact />,
     Git: <FaGitAlt />,
-    Github: <FaGithub />,
-    Java: <FaJava />,
     Figma: <FaFigma/>,
+    Angular: <FaAngular/>,
+    SQL: <FaDatabase/>,
+    CSharp: <TbBrandCSharp />
+
   };
 
   return (

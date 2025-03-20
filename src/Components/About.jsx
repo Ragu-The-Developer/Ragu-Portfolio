@@ -1,6 +1,6 @@
 import React from "react";
 import Skills from "./Skills.jsx";
-import raguresume from '../resume/RaguResume.pdf'
+import raguresume from '../resume/Ragunathan-Resume.pdf';
 import { FaFileDownload } from "react-icons/fa";
 const About = () => {
   return (
@@ -11,14 +11,14 @@ const About = () => {
             Get to <b>know</b> me!
           </h1>
           <p>
-            Hi, my name is <b>Ragunathan S</b> and I am from Chennai,
-            Tamilnadu. I'm a <b>Web developer / Designer</b> and a PG Graduate From Satyabama 
-            university in <b>MSC Computer Science</b>. Also I have Completed My UG in <b>BSC Computer Science</b> From Gurunanak College , Velachery. <br />
+            Hi, I am <b>Ragunathan S</b> and am from Chennai,
+            Tamilnadu. I'm a <b>Software Developer with</b> With One Years of Experience. Also I have Completed My UG in <b>BSC Computer Science</b> From Gurunanak College , Velachery. <br />
             <br />
-            I love to create projects with web development using the latest technologies and i would like to create more 
-            attractive and responsive UI for the client's. You can find some of my projects mentioned in Project Section.
+            and <b>MSC Computer Science</b> From Sathyabama University , Chennai. <br />
+        
+            I love to work with coding using any technologies apart i am experienced in Angular , C#, Asp.net , SQL Server , HTML , CSS , Javascript , React , Java , Figma , Git , Github , Tailwind CSS , Bootstrap. <br />
             <br />
-            <br />I am <b>open</b> to new opportunities and would like to collabrate and work with projects. Feel Free to connect
+            <br />I am <b>Open</b> to new opportunities and would like to collabrate and work with projects. Feel Free to connect
             with me.
             <br /><br />
             Apart from  <b>Career</b> I would like to read Psychology based books , Graphic Designing and 
@@ -43,9 +43,10 @@ const About = () => {
         <Skills skill="Javascript" />
         <Skills skill="React" />
         <Skills skill="Git" />
-        <Skills skill="Github" />
-        <Skills skill="Java" />
         <Skills skill= "Figma" />
+        <Skills skill= "Angular" />
+        <Skills skill= "CSharp" />
+        <Skills skill= "SQL" />
       </div>
     </>
   );
